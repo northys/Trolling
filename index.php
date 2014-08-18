@@ -54,7 +54,7 @@ function name($file) {
 
 	<?php foreach (glob(__DIR__ . '/images/*') as $file): if(!is_image($file)) continue ?>
 		<div class="face">
-			<a href="https://raw.githubusercontent.com/Northys/Trolling/master/images/<?php e(basename($file)) ?>">
+			<a href="https://raw.githubusercontent.com/Kcko/Trolling/master/images/<?php e(basename($file)) ?>">
 				<img src="images/<?php e(basename($file)) ?>" alt="<?php e(basename($file)) ?>">
 			</a>
 			<?php name($file) ?>
