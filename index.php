@@ -61,7 +61,6 @@ function name($file) {
 		</div>
 	<?php endforeach ?>
 	</div>
-
 	<script>
 		$(function () {
 			var Trolling = {
